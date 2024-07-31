@@ -86,12 +86,13 @@ Make sure you have the following installed:
 ```
 /react-authentication
 |-- /src
-|   |-- /components         # Reusable components (Navbar, AuthProvider, etc.)
+|   |-- /auth               # AuthProvider
+|   |-- /components         # Reusable components (Navbar, etc.)
 |   |-- /pages              # Main application pages (Home, Login, Registration, etc.)
 |   |-- App.js              # Main application component
 |   |-- index.js            # Entry point of the application
 |-- db.json                 # Mock database for user data
-|-- package.json             # Project dependencies and scripts
+|-- package.json            # Project dependencies and scripts
 |-- README.md               # Project documentation
 ```
 
@@ -102,7 +103,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ### Acknowledgments
 
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [React Router Documentation](https://reactrouter.com/web/guides/quick-start)
+- [React Router Documentation](https://reactrouter.com/en/main)
 - [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [Axios Documentation](https://axios-http.com/docs/intro)
 - [JSON Server Documentation](https://github.com/typicode/json-server)
